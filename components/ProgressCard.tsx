@@ -39,7 +39,7 @@ const ProgressCard: React.FC<ProgressCardProps> = ({ status }) => {
       
       <div className="mt-8 text-center">
         <p className="text-xs text-slate-400 italic">
-          项目截止日期：2024年12月31日
+          项目截止日期：2026年12月31日
         </p>
       </div>
     </div>
