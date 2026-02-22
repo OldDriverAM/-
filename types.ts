@@ -4,6 +4,7 @@ export interface DonationTier {
   label: string;
   description: string;
   icon: string;
+  qrCode?: string;
 }
 
 export interface CrowdfundingStatus {

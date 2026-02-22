@@ -42,11 +42,11 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ tier, onClose, onConfirm })
               </div>
             </div>
 
-            {/* 二维码区域：直接使用您上传的图片链接 */}
+            {/* 二维码区域：根据选择的档位显示对应的固定金额收款码 */}
             <div className="relative mx-auto w-full aspect-[3/4] max-w-[280px] bg-white rounded-3xl overflow-hidden mb-6 shadow-inner border border-slate-100">
               <img 
-                src="https://r2.erweima.ai/i/05e61266b3f7.png" 
-                alt="WeChat Payment QR Code" 
+                src={tier.qrCode || "https://r2.erweima.ai/i/05e61266b3f7.png"} 
+                alt={`${tier.amount}元收款码`} 
                 className="w-full h-full object-cover"
               />
               <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-[10px] font-bold flex items-center gap-1 shadow-lg">
