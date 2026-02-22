@@ -17,28 +17,28 @@ const DONATION_TIERS: DonationTier[] = [
     label: "微薄之力", 
     description: "一杯咖啡的关怀，让代码跑得更顺畅。", 
     icon: "☕",
-    qrCode: "https://files.oaiusercontent.com/file-7S8X9Z9Z9Z9Z9Z9Z9Z9Z9Z9Z" // 20元收款码
+    qrCode: "/20.jpg" // components
   },
   { 
     amount: 50, 
     label: "诚挚助力", 
     description: "一份午餐的支持，点亮新电脑的屏幕。", 
     icon: "🍕",
-    qrCode: "https://files.oaiusercontent.com/file-8A9B0C1D2E3F4G5H6I7J8K9L" // 50元收款码
+    qrCode: "/50.jpg" // components
   },
   { 
     amount: 100, 
     label: "强力加持", 
     description: "一块固态的梦想，加速创造的每一个瞬间。", 
     icon: "🚀",
-    qrCode: "https://files.oaiusercontent.com/file-M0N1O2P3Q4R5S6T7U8V9W0X1" // 100元收款码
+    qrCode: "/100.jpg" // components
   },
   { 
     amount: 200, 
     label: "终极梦想", 
     description: "一颗核心的跳动，成为萧叶最坚实的后盾。", 
     icon: "💎",
-    qrCode: "https://files.oaiusercontent.com/file-Y2Z3A4B5C6D7E8F9G0H1I2J3" // 200元收款码
+    qrCode: "/200.jpg" // components
   },
 ];
 
